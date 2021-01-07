@@ -10,8 +10,6 @@ const fetchApiData = async (movieTitle) => {
       return err;
     });
 
-  // console.log(data.Search);
-
   // Return the Searches resulted from the api
   return data.Search;
 };
