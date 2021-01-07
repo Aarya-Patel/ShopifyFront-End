@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 75px 15% 0 15%;
+  min-height: 100vh;
+  background-color: #dfdfdf;
+  font-size: 16px;
+}
+
+.content-container {
+  display: flex;
+}
+
+.main-container {
+  flex-basis: 60%;
+}
+
+.nominee-container {
+  flex-basis: 40%;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 10px 15px;
+  height: 100%;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #095fe5;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 1em;
+}
+
+button:disabled {
+  background-color: #3a3a3a;
+}

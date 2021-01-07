@@ -1,0 +1,10 @@
+.banner {
+  background-color: #8bc064;
+  margin-top: 1em;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border-color: #6db432;
+  color: white;
+}
